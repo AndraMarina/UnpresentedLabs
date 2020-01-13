@@ -1,0 +1,50 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ro.upt.ac.chiuitter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:6:3-23:17
+12        android:allowBackup="true"
+12-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:7:5-31
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Andra\.gradle\caches\transforms-2\files-2.1\5b454e4f1a30a31f78d2352c725b41cb\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:8:5-39
+16        android:label="@string/app_name"
+16-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:9:5-37
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:10:5-50
+18        android:supportsRtl="true"
+18-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:11:5-31
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:12:5-36
+21        <activity android:name="ro.upt.ac.chiuitter.HomeActivity" >
+21-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:15:5-20:16
+21-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:15:15-43
+22            <intent-filter>
+22-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:16:7-19:23
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:17:9-60
+23-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:17:17-58
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:18:9-68
+25-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:18:19-66
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="ro.upt.ac.chiuitter.ComposeActivity" />
+28-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:21:5-49
+28-->C:\Sandbox\UnpresentedLabs\SMA_LAB2_CHECK_TO_BE_PRESENTED\chiuitter\app\src\main\AndroidManifest.xml:21:15-46
+29    </application>
+30
+31</manifest>

@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ro.upt.ac.chiuitter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:6:3-22:17
+12        android:allowBackup="true"
+12-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:7:5-31
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.0] C:\Users\Andra\.gradle\caches\transforms-2\files-2.1\1eb9e77797e5f03df0b3bb2f934d775b\core-1.0.0\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:8:5-39
+16        android:label="@string/app_name"
+16-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:9:5-37
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:10:5-50
+18        android:supportsRtl="true"
+18-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:11:5-31
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:12:5-36
+21        <activity android:name="ro.upt.ac.chiuitter.view.HomeActivity" >
+21-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:13:5-19:16
+21-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:13:15-48
+22            <intent-filter>
+22-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:14:7-18:23
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:15:9-60
+23-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:15:17-58
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:17:9-68
+25-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:17:19-66
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="ro.upt.ac.chiuitter.view.ComposeActivity" />
+28-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:20:5-53
+28-->C:\Sandbox\UnpresentedLabs\SMA_LAB3_CHECK_TO_BE_PRESENTED\chiutter\app\src\main\AndroidManifest.xml:20:15-51
+29
+30        <provider
+30-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Andra\.gradle\caches\transforms-2\files-2.1\fd73b37e4a3dbd779502cd70e31166b6\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+31            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+31-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Andra\.gradle\caches\transforms-2\files-2.1\fd73b37e4a3dbd779502cd70e31166b6\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+32            android:authorities="ro.upt.ac.chiuitter.lifecycle-process"
+32-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Andra\.gradle\caches\transforms-2\files-2.1\fd73b37e4a3dbd779502cd70e31166b6\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+33            android:exported="false"
+33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Andra\.gradle\caches\transforms-2\files-2.1\fd73b37e4a3dbd779502cd70e31166b6\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+34            android:multiprocess="true" />
+34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Andra\.gradle\caches\transforms-2\files-2.1\fd73b37e4a3dbd779502cd70e31166b6\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+35    </application>
+36
+37</manifest>
